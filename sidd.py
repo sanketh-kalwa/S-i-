@@ -21,7 +21,7 @@ API_RETRY_SECONDS = 300
 MODEL_PATH = '3rdpresc.pt'
 
 # API key for Gemini
-GEMINI_API_KEY = "AIzaSyDfvul2fjvk1Q0y8lqqzaMrsyt0GvlFrN0"
+GEMINI_API_KEY = "YOUR_API_KEY"
 
 # Import YOLO
 try:
