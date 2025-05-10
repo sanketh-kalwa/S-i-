@@ -28,9 +28,9 @@ def initialize_openai_client():
     try:
         # **WARNING: DO NOT HARDCODE YOUR API KEY IN PRODUCTION CODE!**
         # This is highly insecure. Use environment variables instead.
-        api_key = "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"  # Replace with your API key for testing
+        api_key = "YOUR_API_KEY"  # Replace with your API key for testing
 
-        if api_key == "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":
+        if api_key == "YOUR_API_KEy":
             st.warning("API key is still the placeholder. Please replace it for AI corrections to work.")
             return None
         elif api_key:
